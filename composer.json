@@ -1,0 +1,65 @@
+{
+    "name": "cjpanilag/simple-notifications",
+    "description": "Simplified notifications for AWS SNS, FCM Push Notifications, emails, and more.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carl Jeffrie Panilag",
+            "email": "cjpanilag@gmail.com",
+            "homepage": "https://www.linkedin.com/in/carl-jeffrie-panilag-312a41240/"
+        },
+        {
+            "name": "James Carlo Luchavez",
+            "email": "jamescarloluchavez@gmail.com",
+            "homepage": "https://www.linkedin.com/in/jsluchavez"
+        }
+    ],
+    "homepage": "https://github.com/cjpanilag/simple-notifications",
+    "keywords": ["Laravel", "SimpleNotifications"],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "~8|~9",
+        "laravel-notification-channels/aws-sns": "^1.4",
+        "laravel-notification-channels/fcm": "~2.0",
+        "kreait/firebase-php": "6.3.1",
+        "luchavez/starter-kit": "^1.0",
+        "luchavez/aws-ses-bounce": "^1.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~6|~7"
+    },
+    "suggest": {
+        "luchavez/starter-kit": "^1.0",
+        "luchavez/boilerplate-generator": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cjpanilag\\SimpleNotifications\\": "src/",
+            "Cjpanilag\\SimpleNotifications\\Database\\Seeders\\": "database/seeders/",
+            "Cjpanilag\\SimpleNotifications\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cjpanilag\\SimpleNotifications\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cjpanilag\\SimpleNotifications\\Providers\\SimpleNotificationsServiceProvider"
+            ],
+            "aliases": {
+                "SimpleNotifications": "Cjpanilag\\SimpleNotifications\\Facades\\SimpleNotifications"
+            }
+        },
+        "branch-alias": {
+            "dev-main": "1.0.x-dev",
+            "dev-master": "1.0.x-dev",
+            "dev-develop": "1.0.x-dev",
+            "dev-feature": "1.0.x-dev"
+        }
+    }
+}
