@@ -6,8 +6,7 @@
 
 use Cjpanilag\SimpleNotifications\Services\SimpleNotifications;
 
-if (! function_exists('simpleNotifications'))
-{
+if (! function_exists('simpleNotifications')) {
     /**
      * @return SimpleNotifications
      */
@@ -17,8 +16,7 @@ if (! function_exists('simpleNotifications'))
     }
 }
 
-if (! function_exists('simple_notifications'))
-{
+if (! function_exists('simple_notifications')) {
     /**
      * @return SimpleNotifications
      */

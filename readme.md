@@ -1,11 +1,9 @@
-# SimpleNotifications
+# Simple Notifications
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 Simplified notifications for AWS SNS, FCM Push Notifications, emails, and more.
-
-Take a look at [contributing.md](contributing.md) to see a to do list.
 
 ## Installation
 

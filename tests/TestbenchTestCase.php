@@ -24,7 +24,7 @@ abstract class TestbenchTestCase extends Testbench
      */
     public function tearDown(): void
     {
-       parent::tearDown();
+        parent::tearDown();
     }
 
     /**
