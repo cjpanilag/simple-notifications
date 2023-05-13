@@ -171,7 +171,7 @@ class SimpleNotificationsServiceProvider extends ServiceProvider implements Prov
         ], 'simple-notifications.views');*/
 
         // Registering package commands.
-         $this->commands($this->commands);
+        $this->commands($this->commands);
     }
 
     /**

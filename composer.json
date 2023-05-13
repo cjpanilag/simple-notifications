@@ -18,7 +18,7 @@
     "keywords": ["Laravel", "SimpleNotifications"],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "~8|~9",
+        "illuminate/support": "~8|~9|~10",
         "laravel-notification-channels/aws-sns": "^1.4",
         "laravel-notification-channels/fcm": "~2.0",
         "kreait/firebase-php": "6.3.1",
@@ -28,7 +28,7 @@
     "require-dev": {
         "roave/security-advisories": "dev-latest",
         "phpunit/phpunit": "~9.0",
-        "orchestra/testbench": "~6|~7"
+        "orchestra/testbench": "~6|~7|~8"
     },
     "suggest": {
         "luchavez/starter-kit": "^1.0",
