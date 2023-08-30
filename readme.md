@@ -1,7 +1,10 @@
-# Simple Notifications
+# Simple Notifications for Laravel 8|9|10
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
+[![GitHub Repo stars][ico-stars]][link-stars]
+[![Discord][ico-discord]][link-discord]
+[![Twitter Follow][ico-twitter]][link-twitter]
 
 Simplified notifications for AWS SNS, FCM Push Notifications, emails, and more.
 
@@ -10,7 +13,7 @@ Simplified notifications for AWS SNS, FCM Push Notifications, emails, and more.
 Via Composer
 
 ``` bash
-$ composer require cjpanilag/simple-notifications
+$ composer require cjpanilag/simple-notifications --with-all-dependencies
 $ php artisan migrate
 ```
 
@@ -379,10 +382,17 @@ If you discover any security related issues, please email cjpanilag@gmail.com in
 
 MIT. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/cjpanilag/simple-notifications.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/cjpanilag/simple-notifications.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/cjpanilag/simple-notifications.svg
+[ico-downloads]: https://img.shields.io/packagist/dt/cjpanilag/simple-notifications.svg
+[ico-stars]: https://img.shields.io/github/stars/cjpanilag/simple-notifications
+[ico-discord]: https://img.shields.io/discord/1143744619956404295?color=8c9eff&label=Discord&logo=discord
+[ico-twitter]: https://img.shields.io/twitter/follow/carljeffrie
 
 [link-packagist]: https://packagist.org/packages/cjpanilag/simple-notifications
 [link-downloads]: https://packagist.org/packages/cjpanilag/simple-notifications
+[link-stars]: https://github.com/cjpanilag/simple-notifications
+[link-discord]: https://discord.gg/MBxxAkQAxx
+[link-twitter]: https://twitter.com/carljeffrie
+
 [link-author]: https://github.com/cjpanilag
 [link-contributors]: ../../contributors

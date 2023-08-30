@@ -20,8 +20,8 @@
         "php": "^8.0",
         "illuminate/support": "~8|~9|~10",
         "laravel-notification-channels/aws-sns": "^1.4",
-        "laravel-notification-channels/fcm": "~2.0",
-        "kreait/firebase-php": "6.3.1",
+        "laravel-notification-channels/fcm": "^2.0|^3.0",
+        "kreait/firebase-php": "^6.3|^7.0",
         "luchavez/starter-kit": "^1.0",
         "luchavez/aws-ses-bounce": "^1.0"
     },
